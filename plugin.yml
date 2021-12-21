@@ -1,0 +1,13 @@
+name: UpCommands
+main: NoobMCBG\UGWE\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  /up:
+    description: UpCommands
+    permission: up.command
+permissions:
+  up.command:
+    default: op
