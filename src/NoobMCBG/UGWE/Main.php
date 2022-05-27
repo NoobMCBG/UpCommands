@@ -30,6 +30,7 @@ class Main extends PluginBase {
 							$world->setblock(new Vector3($x, $y+$args[0], $z), BlockFactory::getInstace()->get($this->getConfig()->get("id-block"), $this->getConfig()->get("meta-block")));
 						}else{
 							$sender->sendMessage("§cY coordinate should not be more than 255");
+						}
 				    	}else{
 				    		$sender->sendMessage("§cUsage: //up <y>");
 				    	}
